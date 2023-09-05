@@ -44,25 +44,29 @@ h3{
   color: white;
 }
 h5{
+  margin-top: none;
+  padding-top: none;
   color: white;
+}
+
+#top-image{
+  background-color: green;
+  height: 10rem;
 }
 #section-2{
   display: flex;
   flex-direction: column;
-background-color: red;
+background-color: rgba(190, 0, 0, 1);
+width: 100%;
 }
 #Avatar-div{
-  position: relative;
+  display: flex;
+  justify-content: center;
   width: 400px;
 }
 #avatar{
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  
   margin-top: -3%;
-  margin-left: 45%;
   background-color: black;
 
 }
@@ -71,17 +75,83 @@ background-color: red;
 }
 #contact-icons{
   display: flex;
-  justify-content: center;
+  justify-content:center;
   gap: 2%;
 }
 .contact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  border-radius: 100%;
-  
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
 }
 img {
   width: 60%; 
   height: 60%; 
   object-fit: contain;
 }
+.contact-information{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 4%;
+  
+  align-self: center;
+  margin-top: 2%;
+background-color: rgb(255, 255, 255);
+width: 85%;
+height: fit-content;
+border-radius: 10px;
 
+}
+.contact-information-image{
+  height: 30px;
+  width: 30px;
+}
+.contact-information-txt{
+  margin-top: 4%;
+  margin-left: 8%;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight:400;
+  color:rgb(173, 0, 35);
+}
+.contact-information-tile{
+  display: flex;
+  align-content: start;
+  align-items: start;
+  justify-content: start;
+  
+}
+p{
+  text-align: start;
+  margin-top: auto;
+}
+.txt-content{
+  width: 90%;
+  margin-top: auto;
+   border: solid;
+   border-width: 1px;
+   padding-bottom: 5px;
+   border-color: gray;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+}
+.txt-content-title{
+  color: gray;
+  font-size: 0.8em;
+}
+hr{
+  margin-left: 2%;
+    height: 2px;
+    border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+    width: 100%;
+}
