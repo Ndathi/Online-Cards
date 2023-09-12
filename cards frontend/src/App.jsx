@@ -19,9 +19,11 @@ function App() {
 
     </div>
     <div id='section-2'>
-    <div id='Avatar-div'>
-    <Avatar id="avatar"  src="/static/images/avatar/1.jpg" alt="Remy Sharp"/>
-    </div>
+      <div id='Avatar-div'>
+    <div id='avatar'>
+  {/* <img src={phone} alt="" /> */}
+</div>
+</div>
     <div id="name-salutation">
       <h3>Ian Ndathi Mburu</h3>
       <h5>Software Engineering, computer science </h5>
@@ -58,7 +60,7 @@ function App() {
         <img src={sms} alt="" className='contact-information-image' />
         <h4 className='contact-information-txt'>Summary</h4>
         </div>
-      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. At inventore itaque expedita iure dignissimos nostrum molestias explicabo veritatis voluptas unde, tempore ratione provident voluptatum earum nihil corrupti libero quos cum.</p>
+      <p>Lorem isum dolor sit amet consectetur adipisicing elit. At inventore itaque expedita iure dignissimos nostrum molestias explicabo veritatis voluptas unde, tempore ratione provident voluptatum earum nihil corrupti libero quos cum.</p>
     </div>
 
     <div className='contact-information'>

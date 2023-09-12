@@ -50,8 +50,10 @@ h5{
 }
 
 #top-image{
-  background-color: green;
-  height: 10rem;
+  background-image: url("./assets/chungwa.jpg");
+  background-position: center;
+  background-size:cover;
+  height: 13rem;
 }
 #section-2{
   display: flex;
@@ -62,12 +64,17 @@ width: 100%;
 #Avatar-div{
   display: flex;
   justify-content: center;
-  width: 400px;
+  align-content: center;
+  width: 100%;
 }
 #avatar{
   
-  margin-top: -3%;
-  background-color: black;
+  margin-top: -6%;
+  width: 70px;
+  height: 70px;
+  border-radius:50%;
+  background-image: url("./assets/happyWoman.jpg");
+  background-size: cover;
 
 }
 #name-salutation{
@@ -84,8 +91,8 @@ width: 100%;
   align-items: center;
   background-color: white;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
 }
 img {
   width: 60%; 
@@ -129,6 +136,7 @@ border-radius: 10px;
 p{
   text-align: start;
   margin-top: auto;
+  color: black;
 }
 .txt-content{
   width: 90%;
